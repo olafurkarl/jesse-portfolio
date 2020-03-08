@@ -3,7 +3,6 @@
     <div class="name">
       <span>Jesse Ting</span> <span>(Jian Yu)</span>
     </div>
-    <div class="empty" />
     <div class="navigation">
       <a class="topbar-work">Work</a>
       <a class="topbar-about">About</a>
@@ -13,7 +12,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .topbar {
   display: grid;
@@ -29,7 +27,7 @@
   align-items: center;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 375px) {
   .topbar {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -42,7 +40,7 @@
   }
 
   .name {
-    justify-self: center;
+      justify-self: center;
   }
 }
 

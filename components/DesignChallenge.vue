@@ -1,7 +1,50 @@
 <template>
-  <div class="grid-container">
+  <div>
     <div class="title">
       UI Daily Design Challenge
+    </div>
+    <div class="challenges">
+      <!-- <div class="challenges-2">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-1.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-2.png">
+      </div>
+      <div class="challenges-2">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-1.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-2.png">
+      </div>
+      <div />
+      <div class="challenges-2">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-1.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-2.png">
+      </div>
+      <div />
+      <div class="challenges-3">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-1.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-2.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-3.png">
+      </div>
+      <div />
+      <div />
+      <div class="challenges-2">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-1.png">
+        <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-2.png">
+      </div>
+    </div> -->
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-1.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-2.png">
+
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-1.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-2.png">
+
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-1.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-2.png">
+
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-1.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-2.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-3.png">
+
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-1.png">
+      <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-2.png">
     </div>
   </div>
 </template>
@@ -16,53 +59,29 @@
   line-height: 73px;
   display: flex;
   justify-self: center;
+  justify-content: center;
 
   color: #E35975;
 
   margin-top: -0.6em;
 }
 
-.grid-container {
+.challenges {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 0.3fr 2.5fr 2.5fr 2.5fr 2.5fr;
-  grid-template-areas:
-  "projects-title"
-  "box-1"
-  "box-2"
-  "box-3"
-  "box-4";
-
-  text-align: center;
-  align-content: space-between;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  grid-template-columns: repeat(auto-fit, 1fr);
 }
 
-@media(max-width: 700px) {
-  .grid-container {
-      align-content: center;
-      justify-content: center;
-  }
+/* .challenges-2 {
+  grid-template-columns: auto auto;
 }
 
-@media (min-width: 700px) {
-  .grid-container {
-    grid-template-columns: auto auto;
-    grid-template-rows: 0.3fr 2.5fr 2.5fr;
-    grid-template-areas:
-    "projects-title projects-title"
-    "box-1 box-2"
-    "box-3 box-4";
-  }
-}
+.challenges-3 {
+  grid-template-columns: auto auto auto;
+} */
 
-@media (min-width: 1200px) {
-  .grid-container {
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 0.3fr 2.5fr;
-    grid-template-areas:
-    "projects-title projects-title projects-title projects-title"
-    "               box-1 box-2 box-3 box-4                     "
-  }
+.design-challenge {
+  object-fit: cover;
 }
 </style>
