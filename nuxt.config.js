@@ -11,10 +11,14 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      // { src: 'https://unpkg.com/aos@2.3.1/dist/aos.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat&display=swap' }
+      // { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' }
     ]
   },
   /*
@@ -30,6 +34,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '@/plugins/aos', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules

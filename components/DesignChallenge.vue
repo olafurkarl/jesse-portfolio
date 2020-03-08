@@ -4,47 +4,31 @@
       UI Daily Design Challenge
     </div>
     <div class="challenges">
-      <!-- <div class="challenges-2">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-1.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-2.png">
+      <div class="design-challenge-2">
+        <img src="~assets/design_challenge/design-challenge-1-1.png" data-aos="flip-right">
+        <img src="~assets/design_challenge/design-challenge-1-2.png" data-aos="flip-left">
       </div>
-      <div class="challenges-2">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-1.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-2.png">
-      </div>
-      <div />
-      <div class="challenges-2">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-1.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-2.png">
-      </div>
-      <div />
-      <div class="challenges-3">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-1.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-2.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-3.png">
-      </div>
-      <div />
-      <div />
-      <div class="challenges-2">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-1.png">
-        <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-2.png">
-      </div>
-    </div> -->
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-1.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-1-2.png">
 
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-1.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-2-2.png">
+      <div class="design-challenge-2">
+        <img src="~assets/design_challenge/design-challenge-2-1.png" data-aos="flip-right">
+        <img src="~assets/design_challenge/design-challenge-2-2.png" data-aos="flip-left">
+      </div>
 
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-1.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-3-2.png">
+      <div class="design-challenge-2">
+        <img src="~assets/design_challenge/design-challenge-3-1.png" data-aos="flip-right">
+        <img src="~assets/design_challenge/design-challenge-3-2.png" data-aos="flip-left">
+      </div>
 
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-1.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-2.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-4-3.png">
+      <div class="design-challenge-3">
+        <img src="~assets/design_challenge/design-challenge-4-1.png" data-aos="flip-right">
+        <img src="~assets/design_challenge/design-challenge-4-2.png" data-aos="flip-up">
+        <img src="~assets/design_challenge/design-challenge-4-3.png" data-aos="flip-left">
+      </div>
 
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-1.png">
-      <img class="design-challenge" src="~assets/design_challenge/design-challenge-5-2.png">
+      <div class="design-challenge-2">
+        <img src="~assets/design_challenge/design-challenge-5-1.png" data-aos="flip-right">
+        <img src="~assets/design_challenge/design-challenge-5-2.png" data-aos="flip-left">
+      </div>
     </div>
   </div>
 </template>
@@ -68,20 +52,70 @@
 
 .challenges {
   display: grid;
-  justify-content: space-evenly;
   margin-bottom: 20px;
-  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-row-gap: 2em;
+
+  max-width: 100vw;
 }
 
-/* .challenges-2 {
-  grid-template-columns: auto auto;
+.design-challenge-2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.challenges-3 {
-  grid-template-columns: auto auto auto;
-} */
+.design-challenge-3 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
 
-.design-challenge {
-  object-fit: cover;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+@media(max-width: 950px) {
+  .title {
+    font-size: 6vw;
+    position: absolute;
+    margin-top: -4vh;
+  }
+
+  .challenges {
+    padding-top: 7vh;
+  }
+}
+
+@media(max-width: 1150px) {
+  .challenges > div {
+    max-width: 40vw
+  }
+  .challenges > div > img {
+    justify-self: center;
+    object-fit: scale-down;
+    max-width: 80vw;
+    margin-bottom: 10px;
+  }
+  .challenges {
+    justify-content: space-evenly;
+  }
+}
+
+@media(min-width: 1150px) {
+  .design-challenge-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .design-challenge-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
 </style>
