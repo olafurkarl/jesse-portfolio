@@ -5,33 +5,51 @@
     </div>
 
     <div class="box-1">
-      <img class="image box-1-image" src="~assets/box-1.png">
-      <div class="text box-1-text">
-        Flight Centre Email Design
-      </div>
+      <nuxt-link to="/flight-centre">
+        <img class="image box-1-image" src="~assets/box-1.png">
+        <div class="text box-1-text">
+          Flight Centre Email Design
+        </div>
+      </nuxt-link>
     </div>
     <div class="box-2">
-      <img class="image box-2-image" src="~assets/box-2.png">
-      <div class="text box-2-text">
-        UX/UI Case Study Healthcare DFU
-      </div>
+      <nuxt-link to="/myfootcare-part-one">
+        <img class="image box-2-image" src="~assets/box-2.png">
+        <div class="text box-2-text">
+          UX/UI Case Study Healthcare DFU
+        </div>
+      </nuxt-link>
     </div>
     <div class="box-3">
-      <img class="image box-3-image" src="~assets/box-3.png">
-      <div class="text box-3-text">
-        UX/UI Case Study Healthcare DFU
-      </div>
+      <nuxt-link to="/myfootcare-part-two">
+        <img class="image box-3-image" src="~assets/box-3.png">
+        <div class="text box-3-text">
+          UX/UI Case Study Healthcare DFU
+        </div>
+      </nuxt-link>
     </div>
     <div class="box-4">
-      <img class="image box-4-image" src="~assets/box-4.png">
-      <div class="text box-4-text">
-        Non-profit Org Homepage Redesign
-      </div>
+      <nuxt-link to="/aeiou-foundation">
+        <img class="image box-4-image" src="~assets/box-4.png">
+        <div class="text box-4-text">
+          Non-profit Org Homepage Redesign
+        </div>
+      </nuxt-link>
     </div>
   </div>
 </template>
 
 <style scoped>
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
 
 .grid-container {
   display: grid;
