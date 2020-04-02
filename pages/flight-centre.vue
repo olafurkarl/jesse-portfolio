@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="content">
+      <div class="content grey">
         <div class="padding-left" />
         <div class="padding-right" />
         <TopBar />
@@ -10,8 +10,7 @@
         <div class="padding-left" />
         <div class="padding-right" />
         <div class="center">
-          <div class="main-description">
-            <img src="~assets/flight-centre/flight-centre-big.png">
+          <div class="main-description padded">
             <div class="description-text">
               <h1>Flight Centre - TRIPS Email Design</h1>
               <div class="grey-header-small">
@@ -22,28 +21,25 @@
                   July - October 2019
                 </div>
               </div>
-
+              <img src="~assets/flight-centre/flight-centre-trips.png">
+              <h3>Summary</h3>
               <div class="text">
                 The Flight Centre internal email layout needed some love and personality. The goal of this project was to create a series of email patterns that are reusable and flexible for changes on an Email marketing platform such as Mailchimp. This project aims to solve the problems for the email writers, Customer Support Managers in retail support team by design thinking approach.
               </div>
-
+              <br>
+              <br>
               <div class="hashtags">
-                #User Experience
-                <br>
-                #Visual Design
-                <br>
-                #Branding
-                <br>
-                #Compatibility Study
+                #User Experience &nbsp;  #Visual Design &nbsp; #Branding &nbsp; #Compatibility Study
               </div>
             </div>
           </div>
 
           <div class="design-process">
-            <img src="~assets/flight-centre/design-process-lazy.png">
+            <h2>Design Process - Human-Centred Design</h2>
+            <img src="~assets/flight-centre/design-process-blue.png">
           </div>
 
-          <div class="discovery card">
+          <div class="discovery card padded">
             <div class="card-number">
               01.
             </div>
@@ -56,82 +52,53 @@
                   The process began with understanding the relationship of stakeholders and their pain points. Later on, understand the types of content that TRIPS Support composes and sends to the travel consultants. In Addition, review the current stages of design delivery.
                 </div>
               </div>
-              <div class="card-images">
-                <div class="card-image-1">
-                  <img src="~assets/flight-centre/person-1.png">
+              <div class="card-image">
+                <img src="~assets/flight-centre/personas.png">
+              </div>
+              <div class="card-text-2">
+                Customer Support Managers in TRIPS Support Team were in charge of the email content while Retail Experience Designer came up with the email layout. Once the design and content had been finalised, CSM would send it out via MailChimp. MailChimp was also the main platform for designing the email content.
 
-                  <div class="card-image-text">
-                    TRIPS Support
-                  </div>
-                </div>
-                <div class="card-image-2">
-                  <img src="~assets/flight-centre/person-2.png">
-
-                  <div class="card-image-text">
-                    Retail Experience
-                  </div>
-                </div>
-                <div class="card-image-3">
-                  <img src="~assets/flight-centre/person-3.png">
-
-                  <div class="card-image-text">
-                    Travel Consultants
-                  </div>
-                </div>
+                The main three pain points I found during discovery were that the emails lacked personality, the email composers did not have sufficient coding skills to do more complicated designs, and the platform was not flexible and efficient to deliver the desired result.
               </div>
             </div>
           </div>
-          <div class="findings">
-            <div class="findings-title">
-              Findings:
-            </div>
-            <!-- <div class="findings-content">
-              <div class="finding">
-                <img src="~assets/flight-centre/red-mail.png">
-                <div class="finding-text">
-                  Email layout lacks personality
-                </div>
-              </div>
-              <div class="finding">
-                <img src="~assets/flight-centre/red-code-tags.png">
-                <div class="finding-text">
-                  Composers don't have sufficient coding skills
-                </div>
-              </div>
-              <div class="finding">
-                <img src="~assets/flight-centre/red-frowney.png">
-                <div class="finding-text">
-                  The platform isn't flexible and efficient enough
-                </div>
-              </div>
-            </div> -->
-            <img src="~assets/flight-centre/findings-lazy.png">
+          <div class="findings padded">
+            <div class="findings-title" />
+            <img src="~assets/flight-centre/pain-points-blue.png">
           </div>
-          <div class="finding-conclusion">
-            Finding an easy and efficient way for the TRIPS Support team to create and send newsletters to the 5,000 Flight Centre consultants in Australia
-          </div>
-
           <div class="research card">
-            <div class="card-number">
+            <div class="card-number padded">
               02.
             </div>
             <div class="card-content">
-              <div class="card-info">
+              <div class="card-info padded">
                 <div class="card-title">
                   Research
                 </div>
                 <div class="card-text">
                   I consulted with two customer support managers in order to understand what kind of personalities that they want to inject into the TRIPS email through visual elements and branding. Also, I researched some email patterns which suit the needs of providing the informative and instructional content.
                 </div>
+                <br>
+                <div class="card-text">
+                  If we examinate the current practice of email layout on the market, it could be found that emails or newsletters are contructed by couple groups of information to serve different purposes. For example, cards are built to show content with extensibility and usually has one CTA button to display more.
+                </div>
               </div>
 
               <div class="card-image">
-                <img src="~assets/flight-centre/people.png">
+                <img src="~assets/flight-centre/research.png">
               </div>
             </div>
           </div>
 
-          <div class="ideate card">
+          <div class="blue-text padded">
+            <h3>Problem Statement</h3>
+            <div class="grey-header-small" />
+            <div class="blue-text-content bold">
+              “Finding an easy and efficient way for the TRIPS Support team to create and send newsletters to the 5,000 Flight Centre consultants in Australia”
+            </div>
+          </div>
+
+          <div class="ideate card padded">
             <div class="card-number">
               03.
             </div>
@@ -144,21 +111,29 @@
                   Low Fidelity wireframes were created which is based on the research findings and aims to solve the idenfied problem.
                 </div>
               </div>
-              <div class="card-images">
-                <div class="card-image-1">
-                  <img src="~assets/flight-centre/sketch-1.png">
-                </div>
-                <div class="card-image-2">
-                  <img src="~assets/flight-centre/sketch-2.png">
-                </div>
-                <div class="card-image-3">
-                  <img src="~assets/flight-centre/sketch-3.png">
-                </div>
-              </div>
             </div>
           </div>
 
-          <div class="prototype card">
+          <div class="ideate card-image">
+            <img src="~assets/flight-centre/template-sketches-transparent.png">
+          </div>
+
+          <div class="ideate description padded">
+            <span>            As I personally am a foodie, I liked the idea that we compiled email information in a food display order to improve the readibility.
+            </span>
+            <br>
+            <span>     <b>01. BENTO:</b> Email content starts with a major piece on top with four card containers to show more extensible information
+            </span>
+            <br>
+            <span>
+              <b>02. One Main with Desserts:</b> This email pattern is suitable for instructional purpose. It helped readers to finish the task step by step.
+            </span>
+            <br>
+            <span><b>03. Banquet:</b> With a series of context and images to support and deliver targeted information, this type of pattern is good for delivering announcements, big news, or update.
+            </span>
+          </div>
+
+          <div class="prototype card padded">
             <div class="card-number">
               04.
             </div>
@@ -171,32 +146,24 @@
                   Once the ideation phase is done and reviewed, the next stage in the process is prototyping. This phase aims to create conceptual products in digital space for gaining feedback by testing which enables designers to bring their ideas to life and test the feasibility and viability of the design with users. The selected design tools are Sketch and Illustrator.
                 </div>
               </div>
-              <div class="card-side-image">
-                <img src="~assets/flight-centre/trips-roboto.png">
-              </div>
             </div>
-            <div class="card-images-2">
-              <div class="card-image-1">
-                <img src="~assets/flight-centre/monthly-digest-1.png">
-              </div>
-              <div class="card-image-2">
-                <img src="~assets/flight-centre/monthly-digest-2.png">
-              </div>
+            <div class="card-image">
+              <img src="~assets/flight-centre/flight-centre-3-boxes.png">
             </div>
-            <div class="card-images">
-              <div class="card-image-1">
-                <img src="~assets/flight-centre/prototype-1.png">
-              </div>
-              <div class="card-image-2">
-                <img src="~assets/flight-centre/prototype-2.png">
-              </div>
-              <div class="card-image-3">
-                <img src="~assets/flight-centre/prototype-3.png">
-              </div>
+          </div>
+          <div class="prototype card-image-2">
+            <img src="~assets/flight-centre/fc-templates-transparent.png">
+          </div>
+
+          <div class="blue-text padded">
+            <h3>Improvement</h3>
+            <div class="grey-header-small" />
+            <div class="blue-text-content">
+              Up to this stage,  I’d focused on the first and third identified issues - Email lacks personality & Efficiency. This was done by creating three new templates with more personality and the FlightCentre branding, colour and styles. This also solved the problem of efficiency by letting composers reuse pre-determined templates.
             </div>
           </div>
 
-          <div class="implement card">
+          <div class="implement card padded">
             <div class="card-number">
               05.
             </div>
@@ -204,27 +171,30 @@
               Implement
             </div>
             <div class="card-text">
-              As the design pattern and prototypes are reviewed and finalised, seeking a feasible way to implement the design into business process is challenging due to a technical limitation. By the meaning of a technical limitation, it refers to the exclusion of coding skill mentioned during the discovery phase. Therefore, finding a platform where designers can easily put together the work of design without coding their own visual layout is crucial
+              As the design pattern and prototypes were reviewed and finalised, seeking a feasible way to implement the design into a business process was challenging due to technical limitations. These limitations were namely the lack of coding skills found during the discovery phase. Therefore, finding a platform where designers can easily put together a desirable email design without coding their own visual layout is crucial.
             </div>
             <div class="approaches">
               <div class="approaches-title">
                 There are two approaches to deliver the final solution to product:
               </div>
-              <img src="~assets/flight-centre/approaches-lazy.png">
+              <img src="~assets/flight-centre/approaches-blue.png">
             </div>
             <div class="competitor-analysis">
               <div class="ca-title">
                 Competitor Analysis of email editors and email marketing platforms
               </div>
-              <img src="~assets/flight-centre/email-editor-lazy.png">
-              <img src="~assets/flight-centre/email-marketing-lazy.png">
-            </div>
-
-            <div class="process">
-              <img src="~assets/flight-centre/process-lazy.png">
+              <img src="~assets/flight-centre/competitor-analysis.png">
             </div>
           </div>
-          <div class="handoff card">
+
+          <div class="blue-text padded">
+            <h3>Solving the Problems</h3>
+            <div class="grey-header-small" />
+            <div class="blue-text-content">
+              By using BEE Free Pro in conjunction with MailChimp, the problem created by platform inflexibility and demand for coding skills was eliminated. The BEE Free Pro platform is a lot more intuitive and flexible, and enables users to design email templates without any complicated coding. Once the template has been designed, MailChimp is utilized for the actual sending of marketing emails.
+            </div>
+          </div>
+          <div class="handoff card padded">
             <div class="card-number">
               06.
             </div>
@@ -237,16 +207,21 @@
                   After everything was completed, this project was presented to the leader of Retail Experience Team and handover the final Sketch file to the team UX Designer. As the target users in this project are the Customer Support Managers, I also presented the process and design to them to ask some feedback and to validate my design solutions with the key stakeholders. With the enhnacement of BEE FREE PRO, the Retail Support Team would be able to shorten the amount of work time, at the same time, progressively improve the design and layout when needed.
                 </div>
               </div>
-              <div class="card-side-image">
+              <div class="card-image">
                 <img src="~assets/flight-centre/handoff.png">
               </div>
             </div>
           </div>
 
+          <div class="handoff card-image">
+            <img src="~assets/flight-centre/handoff-2.png">
+          </div>>
+
           <div class="thanks">
             <h1>Thank you</h1>
             <div class="thank-you-message">
-              Thank you for reading my work til the end. I’d love to hear what you think! Shoot me a message on LinkedIn or send me an email to tell me your thought.
+              Thank you for reading my work til the end. I’d love to hear what you think!
+              Shoot me a message on <a href="https://www.linkedin.com/in/jesse-ting-b2a383128/">LinkedIn</a> or send me an <a href="mailto:jessedingx2@gmail.com">email</a> to tell me your thought.
             </div>
           </div>
         </div>
@@ -279,23 +254,26 @@ export default {
   justify-content: center;
 }
 
-.main-description {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+.padded {
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
+.main-description {
   margin-top: 108px;
 }
 
+.description-text > img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .grey-header-small {
-  font-family: Montserrat;
+  font-family: Karla;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 58px;
-  /* or 322% */
 
   display: flex;
   align-items: center;
@@ -304,7 +282,7 @@ export default {
 
   border-top: 1px solid #DDDDDD;
 
-  margin-top: 30px;
+  margin-top: 1em;
 }
 
 .grey-header-right {
@@ -312,58 +290,86 @@ export default {
 }
 
 .description-text {
-  margin-left: 71px;
-
   position: relative;
 }
 
 .description-text > h1 {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal;
+  text-align: center;
+  font-weight: 500;
   font-size: 48px;
   line-height: 58px;
+  color: #1A3163;
+}
+
+.description-text > h3 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+
+  margin-top: 30px;
 }
 
 .description-text > .text {
-  font-family: Montserrat;
+  font-family: Karla;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 29px;
-  /* or 161% */
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
 
   display: flex;
   align-items: center;
 }
 
 .hashtags {
-  font-family: Montserrat;
+  font-family: Karla;
 
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 29px;
+}
 
-  bottom: 0;
-  position: absolute;
+.grey {
+  background-color: rgba(221, 221, 221, 0.3);
 }
 
 .design-process {
   margin-top: 57px;
+  text-align: center;
+  background-color: rgba(221, 221, 221, 0.3);
+}
+
+.design-process > img {
+  object-fit: cover;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 4em;
+}
+
+.design-process > h2 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 29px;
+  color: #1A3163;
+  margin-top: 60px;
+  padding: 2em;
 }
 
 .card {
   margin-top: 40px;
-  font-family: Montserrat;
-
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 3em;
-  padding-right: 3em;
+  font-family: Karla;
 }
 
 .card-number {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 85px;
@@ -371,49 +377,64 @@ export default {
   display: flex;
   align-items: center;
 
-  color: #F38C42;
+  color: #F9BA5D;
 }
 
 .card-title {
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
+  font-weight: 600;
+  font-size: 29px;
   line-height: 29px;
 
-  margin-bottom: 55px;
+  margin-bottom: 1em;
 }
 
-.card-text {
+.card-text, .card-text-2 {
+  font-family: Karla;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 35px;
-
-  padding-right: 2em;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .discovery .card-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
-.discovery .card-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+.discovery .card-image {
+  margin-top: 1em;
+}
 
-  justify-items: center;
-  text-align: center;
+.discovery img {
+  padding-left: 1em;
+  padding-right: 1em;
+
+  width: 100%;
+  object-fit: scale-down;
+  min-width: 150px;
+}
+
+.discovery .card-images .card-image-1, .card-image-2, .card-image-3 {
+  justify-self: center;
+}
+
+.discovery .card-text-2 {
+  margin-top: 3em;
 }
 
 .card-image-text {
   font-size: 24px;
   line-height: 29px;
+  text-align: center;
+  word-break: break-word;
+  word-wrap: break-word;
+  margin: auto;
+  width: 150px;
 }
 
 .findings {
@@ -422,6 +443,12 @@ export default {
   margin-bottom: 2em;
 
   padding-left: 55px;
+}
+
+.findings img {
+  object-fit: scale-down;
+  max-width: 480px;
+  width: 100%;
 }
 
 .findings-title {
@@ -498,40 +525,68 @@ export default {
   left: 25%;
 }
 
-.research {
-  background: #F4F6F9;
+.blue-text {
+  margin-top: 2em;
+  color: #1A3163;
+  font-family: Karla;
+  text-align: center;
+}
+
+.blue-text > h3 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blue-text-content {
+  font-size: 34px;
+  margin-top: 1em;
+}
+
+.blue-text-content.bold {
+  font-weight: bold !important;
 }
 
 .research .card-content {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .research .card-image {
-  justify-items: center;
-  text-align: center;
+  justify-self: center;
 }
 
-.ideate .card-images {
+.research .card-image img {
+  margin-top: 2em;
+  width: 100%;
+  max-width: 985px;
+  object-fit: cover;
+}
+
+.ideate.card-image {
+  background-color: rgba(221, 221, 221, 0.3);
+  text-align: center;
+  padding: 1em;
   margin-top: 2em;
 }
 
-.ideate .card-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-
-  justify-items: center;
-  text-align: center;
+.ideate.card-image img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 971px;
 }
 
-.prototype {
-  background: #F4F6F9;
+.ideate.description {
+  font-family: Karla;
+  margin-top: 2em;
+  font-size: 20px;
+}
+
+.ideate.description > span {
+  display: block;
 }
 
 .prototype .card-content {
@@ -542,32 +597,44 @@ export default {
   grid-row-gap: 0px;
 }
 
-.prototype .card-images-2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: space-around;
-  margin-top: 4em;
+.prototype .card-image {
+  margin-top: 1em;
 }
 
-.prototype .card-images {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 4em;
-  justify-content: space-between;
+.prototype img {
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.prototype.card-image-2 img {
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  padding: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.prototype.card-image-2 {
+  margin-top: 3em;
+  background-color: rgba(221, 221, 221, 0.3);
 }
 
 .approaches {
+  font-family: Karla;
   margin-top: 2em;
 }
 
 .approaches img {
   margin-top: 2em;
   margin-bottom: 2em;
+  width: 100%;
+  object-fit: cover;
 }
 
 .approaches-title, .ca-title {
   font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   line-height: 35px;
 }
@@ -575,15 +642,28 @@ export default {
 .competitor-analysis img {
   margin-top: 2em;
   margin-bottom: 2em;
+  width: 100%;
+  object-fit: cover;
 }
 
-.handoff {
-  background: #F4F6F9;
+.handoff .card-image {
+  text-align: center;
 }
 
-.handoff .card-content {
-  display: grid;
-  grid-template-columns: auto auto;
+.handoff .card-image img {
+  width: 100%;
+  max-width: 320px;
+  object-fit: cover;
+}
+
+.handoff.card-image {
+  text-align: center;
+}
+
+.handoff.card-image img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 2em;
 }
 
 .thanks {
@@ -594,10 +674,10 @@ export default {
 .thanks h1 {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: 500;
+  font-size: 70px;
   text-align: center;
-  color: #D40119;
+  color: #1A3163;
 }
 
 .thank-you-message {
@@ -609,9 +689,9 @@ export default {
 }
 
 .container-1 {
-    grid-column-start: padding-left;
-    grid-column-end: padding-right;
-    background: #F5F5F5;
+  grid-column-start: padding-left;
+  grid-column-end: padding-right;
+  background: #F5F5F5;
 }
 
 .padding-right { grid-area: padding-right; }
