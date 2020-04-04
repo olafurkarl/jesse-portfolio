@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="content">
+      <div class="content grey">
         <div class="padding-left" />
         <div class="padding-right" />
         <TopBar />
@@ -164,11 +164,15 @@
         </div>
 
         <div class="outro padded">
-            UI Design &amp; Delivery part of this case study can be found in <nuxt-link to="/myfootcare-part-two">Part 2</nuxt-link>
-          </div>
+          UI Design &amp; Delivery part of this case study can be found in <nuxt-link to="/myfootcare-part-two">
+            Part 2
+          </nuxt-link>
+        </div>
 
         <ThankYou />
       </div>
+
+      <Footer />
     </div>
   </div>
 </template>
@@ -178,18 +182,24 @@ import TopBar from '~/components/TopBar.vue'
 import ThankYou from '~/components/ThankYou.vue'
 import BlueHeader from '~/components/BlueHeader.vue'
 import GreyDivider from '~/components/GreyDivider.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     TopBar,
     ThankYou,
     BlueHeader,
-    GreyDivider
+    GreyDivider,
+    Footer
   }
 }
 </script>
 
 <style scoped>
+.grey {
+  background-color: #F5F5F5;
+}
+
 .padded {
   margin-left: 20%;
   margin-right: 20%;

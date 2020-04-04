@@ -219,6 +219,7 @@
 
           <ThankYou />
         </div>
+        <Footer />
       </div>
     </div>
   </div>
@@ -227,16 +228,22 @@
 <script>
 import TopBar from '~/components/TopBar.vue'
 import ThankYou from '~/components/ThankYou.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     TopBar,
-    ThankYou
+    ThankYou,
+    Footer
   }
 }
 </script>
 
 <style>
+.grey {
+  background-color: #F5F5F5;
+}
+
 .content {
   display: grid;
   grid-template-columns: 0.1fr minmax(0, 1fr) 0.1fr;
@@ -249,6 +256,10 @@ export default {
 
   justify-content: center;
 }
+
+.padding-right { grid-area: padding-right; }
+
+.padding-left { grid-area: padding-left; }
 
 .padded {
   margin-left: 20%;
@@ -667,9 +678,5 @@ export default {
   grid-column-end: padding-right;
   background: #F5F5F5;
 }
-
-.padding-right { grid-area: padding-right; }
-
-.padding-left { grid-area: padding-left; }
 
 </style>

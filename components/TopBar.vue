@@ -5,16 +5,16 @@
     </div>
     <div class="navigation">
       <nuxt-link to="/">
-        <a class="topbar-home">Home</a>
+        <a class="topbar-home nostyle">Home</a>
+      </nuxt-link>
+      <nuxt-link to="/about">
+        <a class="topbar-about nostyle">About</a>
       </nuxt-link>
       <nuxt-link to="/">
-        <a class="topbar-work">About</a>
+        <a class="topbar-about nostyle">Projects</a>
       </nuxt-link>
       <nuxt-link to="/">
-        <a class="topbar-about">Projects</a>
-      </nuxt-link>
-      <nuxt-link to="/">
-        <a class="topbar-contact">Daily UI</a>
+        <a class="topbar-contact nostyle">Daily UI</a>
       </nuxt-link>
     </div>
   </div>
@@ -23,7 +23,6 @@
 <style scoped>
 
 .topbar {
-  background-color: #F5F5F5;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr;
@@ -61,10 +60,6 @@
 
 .navigation { grid-area: navigation; }
 
-.padding-right { grid-area: padding-right; }
-
-.padding-left { grid-area: padding-left; }
-
 .name {
   font-family: Montserrat;
   font-style: normal;
@@ -99,11 +94,12 @@
 .navigation a {
   padding-left: 1em;
   grid-column-gap: 2em;
+  text-decoration: none;
+  color: #607D8B;
 }
 
 .nuxt-link-exact-active, .nuxt-link-active {
   text-decoration: none;
   color: #607D8B;
 }
-
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="title">
+  <div class="blue-title">
     {{ title }}
   </div>
 </template>
 
 <style scoped>
-.title {
+.blue-title {
   font-family: Montserrat;
   color: #1A3163;
   font-weight: 600;

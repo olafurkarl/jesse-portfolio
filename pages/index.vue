@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="content">
+      <div class="content grey">
         <div class="padding-left" />
         <div class="padding-right" />
         <TopBar />
@@ -25,6 +25,7 @@
         <DesignChallenge />
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -33,18 +34,24 @@ import TopBar from '~/components/TopBar.vue'
 import MainHeader from '~/components/MainHeader.vue'
 import Projects from '~/components/Projects.vue'
 import DesignChallenge from '~/components/DesignChallenge.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     TopBar,
     MainHeader,
     Projects,
-    DesignChallenge
+    DesignChallenge,
+    Footer
   }
 }
 </script>
 
 <style>
+.grey {
+  background-color: #F5F5F5;
+}
+
 .content {
   display: grid;
   grid-template-columns: 0.1fr minmax(0, 1fr) 0.1fr;
