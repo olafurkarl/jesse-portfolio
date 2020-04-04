@@ -215,15 +215,9 @@
 
           <div class="handoff card-image">
             <img src="~assets/flight-centre/handoff-2.png">
-          </div>>
-
-          <div class="thanks">
-            <h1>Thank you</h1>
-            <div class="thank-you-message">
-              Thank you for reading my work til the end. I’d love to hear what you think!
-              Shoot me a message on <a href="https://www.linkedin.com/in/jesse-ting-b2a383128/">LinkedIn</a> or send me an <a href="mailto:jessedingx2@gmail.com">email</a> to tell me your thought.
-            </div>
           </div>
+
+          <ThankYou />
         </div>
       </div>
     </div>
@@ -232,10 +226,12 @@
 
 <script>
 import TopBar from '~/components/TopBar.vue'
+import ThankYou from '~/components/ThankYou.vue'
 
 export default {
   components: {
-    TopBar
+    TopBar,
+    ThankYou
   }
 }
 </script>
@@ -664,28 +660,6 @@ export default {
   width: 100%;
   object-fit: cover;
   margin-top: 2em;
-}
-
-.thanks {
-  margin-top: 4em;
-  margin-bottom: 10em;
-}
-
-.thanks h1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 70px;
-  text-align: center;
-  color: #1A3163;
-}
-
-.thank-you-message {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 35px;
 }
 
 .container-1 {

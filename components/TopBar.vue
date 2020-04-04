@@ -4,9 +4,18 @@
       <span>Jesse Ting</span> <span>(Jian Yu)</span>
     </div>
     <div class="navigation">
-      <a class="topbar-work">Work</a>
-      <a class="topbar-about">About</a>
-      <a class="topbar-contact">Contact</a>
+      <nuxt-link to="/">
+        <a class="topbar-home">Home</a>
+      </nuxt-link>
+      <nuxt-link to="/">
+        <a class="topbar-work">About</a>
+      </nuxt-link>
+      <nuxt-link to="/">
+        <a class="topbar-about">Projects</a>
+      </nuxt-link>
+      <nuxt-link to="/">
+        <a class="topbar-contact">Daily UI</a>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -14,8 +23,9 @@
 <style scoped>
 
 .topbar {
+  background-color: #F5F5F5;
   display: grid;
-  grid-template-columns: 2.8fr 1.7fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr;
   grid-template-areas:
   "name navigation";
@@ -27,7 +37,7 @@
   align-items: center;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 750px) {
   .topbar {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -35,8 +45,9 @@
     "name";
   }
 
-  .topbar-work, .topbar-about, .topbar-contact {
+  .navigation a {
     display: none;
+    grid-column-gap: 0;
   }
 
   .name {
@@ -77,10 +88,22 @@
   color: #607D8B;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: ". . .";
   grid-area: navigation;
+
+  justify-self: self-end;
+}
+
+.navigation a {
+  padding-left: 1em;
+  grid-column-gap: 2em;
+}
+
+.nuxt-link-exact-active, .nuxt-link-active {
+  text-decoration: none;
+  color: #607D8B;
 }
 
 </style>
