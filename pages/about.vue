@@ -219,7 +219,7 @@ a {
   font-size: 30px;
   line-height: 37px;
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .about-outro > div {
