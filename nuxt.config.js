@@ -17,7 +17,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap' }
       // { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' }
     ]
   },
