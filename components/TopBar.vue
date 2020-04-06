@@ -4,17 +4,17 @@
       <span>Jesse Ting</span> <span>(Jian Yu)</span>
     </div>
     <div class="navigation">
-      <nuxt-link to="/">
-        <a class="topbar-home nostyle">Home</a>
+      <nuxt-link to="/" class="topbar-about nostyle">
+        Home
       </nuxt-link>
-      <nuxt-link to="/about">
-        <a class="topbar-about nostyle">About</a>
+      <nuxt-link to="/about" class="topbar-about nostyle">
+        About
       </nuxt-link>
-      <nuxt-link to="/">
-        <a class="topbar-about nostyle">Projects</a>
+      <nuxt-link to="/" class="topbar-about nostyle">
+        Projects
       </nuxt-link>
-      <nuxt-link to="/">
-        <a class="topbar-contact nostyle">Daily UI</a>
+      <nuxt-link to="/" class="topbar-about nostyle">
+        Daily UI
       </nuxt-link>
     </div>
   </div>
@@ -83,7 +83,7 @@
   color: #1A3163;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
   grid-template-rows: 1fr;
   grid-template-areas: ". . .";
   grid-area: navigation;
