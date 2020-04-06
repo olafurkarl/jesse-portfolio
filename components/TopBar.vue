@@ -67,7 +67,7 @@
   font-size: 22px;
   line-height: 27px;
 
-  color: #607D8B;
+  color: #1A3163;
 }
 
 .navigation {
@@ -80,7 +80,7 @@
   font-size: 22px;
   line-height: 27px;
 
-  color: #607D8B;
+  color: #1A3163;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -95,11 +95,11 @@
   padding-left: 1em;
   grid-column-gap: 2em;
   text-decoration: none;
-  color: #607D8B;
+  color: #1A3163;
 }
 
 .nuxt-link-exact-active, .nuxt-link-active {
   text-decoration: none;
-  color: #607D8B;
+  color: #1A3163;
 }
 </style>
