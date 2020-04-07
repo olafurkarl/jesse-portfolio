@@ -24,7 +24,8 @@
               <img src="~assets/flight-centre/flight-centre-trips.png">
               <h3>Summary</h3>
               <div class="text">
-                The Flight Centre internal email layout needed some love and personality. The goal of this project was to create a series of email patterns that are reusable and flexible for changes on an Email marketing platform such as Mailchimp. This project aims to solve the problems for the email writers, Customer Support Managers in retail support team by design thinking approach.
+                The Flight Centre internal email layout needed some love and personality. The goal of this project was to create a series of reusable email patterns for an Email marketing platform such as MailChimp.  My mission was to do research,  find tools and apply best market practices to improve the workflow of Customer Support Managers.
+                The solution I came up with consisted of using a new email template editor, along with 3 email template variations, which could then be used by Customer Support Managers to compose emails that would later be exported into MailChimp.
               </div>
               <br>
               <br>

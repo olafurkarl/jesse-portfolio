@@ -8,7 +8,7 @@
         I'm Jesse Ting
       </div>
       <div class="description">
-        <div>a UX/UI designer</div>
+        <div>a UX designer</div>
         <br>
         <div>based in Brisbane</div>
         <br>
@@ -17,9 +17,6 @@
     </div>
     <div class="image">
       <img src="~assets/jesse_main.png">
-    </div>
-    <div class="button">
-      <ButtonDown />
     </div>
   </div>
 </template>
@@ -56,6 +53,9 @@
   justify-items: center;
   text-align: center;
   justify-content: space-between;
+
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 @media(min-width: 1100px) {
@@ -72,8 +72,7 @@
 }
 
 .image {
-  grid-area: image;
-  overflow: hidden;
+  align-self: center;
  }
 
 .text {
@@ -100,14 +99,12 @@
 }
 
 img {
-  width: 561px;
-  height: 671px;
-
   animation: 1.3s ease-in-out 0s 1 fadeIn;
 
-  overflow: hidden;
-  object-fit: cover;
-  max-width: 100%;
+  max-width: 516px;
+  max-height: 530px;
+  width: 100%;
+  object-fit: scale-down;
 }
 
 .text {
@@ -119,6 +116,7 @@ img {
   display: block;
   align-self: center;
   animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+  padding-right: 10px;
 }
 
 @media(max-width: 700px) {
@@ -133,24 +131,24 @@ img {
 }
 
 .description {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .description > div {
   padding-inline-end: 10px;
   padding-inline-start: 10px;
   display: inline-block;
-  background: linear-gradient(to top, transparent 30%, #0AE6B4 30% 65%, transparent 35%);
+  background: linear-gradient(to top, transparent 30%, #0AE6B4 30% 50%, transparent 50%);
   white-space: nowrap;
 }
 </style>
 
 <script>
-import ButtonDown from '~/components/ButtonDown.vue'
+// import ButtonDown from '~/components/ButtonDown.vue'
 
-export default {
-  components: {
-    ButtonDown
-  }
-}
+// export default {
+//   components: {
+//     ButtonDown
+//   }
+// }
 </script>

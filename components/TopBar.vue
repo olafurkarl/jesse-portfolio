@@ -10,7 +10,7 @@
       <nuxt-link to="/about" class="topbar-about nostyle">
         About
       </nuxt-link>
-      <nuxt-link to="/" class="topbar-about nostyle">
+      <nuxt-link to="/#projects" class="topbar-about nostyle">
         Projects
       </nuxt-link>
       <nuxt-link to="/" class="topbar-about nostyle">
@@ -44,9 +44,17 @@
     "name";
   }
 
+  .name {
+    display: block;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+
   .navigation a {
     display: none;
-    grid-column-gap: 0;
+    grid-column-gap: 0em;
   }
 
   .name {
@@ -63,7 +71,7 @@
 .name {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 22px;
   line-height: 27px;
 
@@ -76,7 +84,7 @@
 
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 22px;
   line-height: 27px;
 
@@ -89,10 +97,11 @@
   grid-area: navigation;
 
   justify-self: self-end;
+
+  grid-column-gap: 2em;
 }
 
 .navigation a {
-  padding-left: 1em;
   grid-column-gap: 2em;
   text-decoration: none;
   color: #1A3163;

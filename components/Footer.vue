@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="footer-center">
       <div class="letstalk">
-        Let’s talk about Design
+        Get in touch with me
       </div>
       <div>
         <a href="https://www.linkedin.com/in/jesse-ting-b2a383128/">

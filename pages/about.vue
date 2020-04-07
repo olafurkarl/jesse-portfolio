@@ -14,7 +14,7 @@
             <img src="~assets/about/jesse-sunglasses.png">
 
             <div class="greeting-text">
-              I’m <span class="name">Jesse Ting</span>, a UX/UI designer based in Brisbane Australia
+              I’m <span class="name">Jesse Ting</span>, a UX designer based in Brisbane Australia
             </div>
           </div>
           <div class="about-me">

@@ -11,18 +11,10 @@
         <div class="padding-right" />
         <MainHeader />
       </div>
-      <div class="content">
+      <div id="projects" class="content">
         <div class="padding-left" />
         <div class="padding-right" />
         <Projects />
-      </div>
-      <div class="content">
-        <div class="empty" />
-      </div>
-      <div class="content">
-        <div class="padding-left" />
-        <div class="padding-right" />
-        <DesignChallenge />
       </div>
     </div>
     <Footer />
@@ -33,7 +25,6 @@
 import TopBar from '~/components/TopBar.vue'
 import MainHeader from '~/components/MainHeader.vue'
 import Projects from '~/components/Projects.vue'
-import DesignChallenge from '~/components/DesignChallenge.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
@@ -41,7 +32,6 @@ export default {
     TopBar,
     MainHeader,
     Projects,
-    DesignChallenge,
     Footer
   }
 }
