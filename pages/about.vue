@@ -78,7 +78,7 @@
                 <li>Usability Testing</li>
                 <li>Problem Solving</li>
                 <li>Wireframing</li>
-                <li>Business Process Mgt</li>
+                <li>Business Process Management</li>
                 <li>Heuristic Review</li>
               </ul>
             </div>
@@ -146,7 +146,11 @@
 
           <div class="about-outro">
             <div class="side-grey-line">
-              <div>That’s pretty much about myself. Have a look of <a href="/">MY WORK</a> and let me know what you think!</div>
+              <div>
+                That’s pretty much about myself. Have a look of       <nuxt-link :to="{ path: '/', hash:'#projects'}" v-smooth-scroll href="/#projects" class="topbar-about nostyle">
+                  MY WORK
+                </nuxt-link> and let me know what you think!
+              </div>
               <br>
               <div>Feel free to grab my resume <a href="/resume.pdf" download="Jesse Ting (Jian-Yu) Resume.pdf" class="topbar-about nostyle">HERE</a>.</div>
             </div>
@@ -252,6 +256,7 @@ a {
 
 .text {
   margin-top: 1em;
+  line-height: 35px;
 }
 
 .about-intro {
