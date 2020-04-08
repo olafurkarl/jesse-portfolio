@@ -40,9 +40,13 @@ export default {
       title: 'Jesse\'s Portfolio',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'og:title', content: 'Jesse Ting\'s Portfolio.' },
-        { hid: 'og:image', content: '/preview.jpg' },
-        { hid: 'og:url', content: 'https://.jesseding.now.sh' }
+        { property: 'og:title', hid: 'og:title', content: 'Jesse Ting\'s Portfolio.' },
+        { property: 'og:image', hid: 'og:image', name: 'og:image', content: '/preview.jpg' },
+        { property: 'og:type', hid: 'og:type', name: 'og:type', content: 'website' },
+        { property: 'og:description', hid: 'og:description', name: 'og:description', content: 'Jesse Ting\'s UX Portfolio and CV.' },
+        { property: 'og:url', hid: 'og:url', content: 'https://.jesseding.now.sh' },
+        { name: 'twitter:image', hid: 'twitter:image', property: 'twitter:image', content: '/preview.jpg' },
+        { name: 'twitter:url', hid: 'twitter:url', property: 'twitter:url', content: 'https://.jesseding.now.sh' }
       ]
     }
   }

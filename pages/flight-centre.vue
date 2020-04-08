@@ -607,6 +607,10 @@ export default {
   font-size: 20px;
 }
 
+.ideate.description span {
+    line-height: 30px;
+}
+
 .ideate.description > span {
   display: block;
 }
