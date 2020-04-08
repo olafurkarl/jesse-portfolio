@@ -1,30 +1,48 @@
 <template>
-  <div class="button_circle">
+  <a v-smooth-scroll href="#top" class="button_circle">
     <i class="las la-angle-up" />
-  </div>
+  </a>
 </template>
 
 <style scoped>
 .button_circle {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 
-  background-color: #607D8B;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #F7F7F7;
   bottom: 0;
 
-  border-radius: 25px;
+  border-radius: 12.5px;
 
   display: flex;
   align-items: center;
+
+  position: fixed;
+
+  border: 2px solid #FFFFFF;
+
+  top: 50%;
+  right: 1%;
+
+  text-decoration: none;
 }
 
 i {
-  color: white;
+  color: #999999;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 16px;
 
   margin-left: auto;
   margin-right: auto;
 }
 </style>
+
+<script>
+export default {
+  methods: {
+    scrollToTop () {
+      window.scrollTo(0, 0)
+    }
+  }
+}
+</script>

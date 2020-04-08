@@ -6,6 +6,7 @@
         <div class="padding-right" />
         <TopBar />
       </div>
+      <ButtonUp />
       <div class="content">
         <div class="padding-left" />
         <div class="padding-right" />
@@ -230,12 +231,14 @@
 import TopBar from '~/components/TopBar.vue'
 import ThankYou from '~/components/ThankYou.vue'
 import Footer from '~/components/Footer.vue'
+import ButtonUp from '~/components/ButtonUp.vue'
 
 export default {
   components: {
     TopBar,
     ThankYou,
-    Footer
+    Footer,
+    ButtonUp
   }
 }
 </script>

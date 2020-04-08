@@ -148,7 +148,7 @@
             <div class="side-grey-line">
               <div>That’s pretty much about myself. Have a look of <a href="/">MY WORK</a> and let me know what you think!</div>
               <br>
-              <div>Feel free to grab my resume <a href="/">HERE</a>.</div>
+              <div>Feel free to grab my resume <a href="/resume.pdf" download="Jesse Ting (Jian-Yu) Resume.pdf" class="topbar-about nostyle">HERE</a>.</div>
             </div>
           </div>
         </div>

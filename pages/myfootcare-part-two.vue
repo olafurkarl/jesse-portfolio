@@ -6,6 +6,7 @@
         <div class="padding-right" />
         <TopBar />
       </div>
+      <ButtonUp />
       <div class="content">
         <div class="padding-left" />
         <div class="padding-right" />
@@ -182,6 +183,7 @@ import ThankYou from '~/components/ThankYou.vue'
 import BlueHeader from '~/components/BlueHeader.vue'
 import GreyDivider from '~/components/GreyDivider.vue'
 import Footer from '~/components/Footer.vue'
+import ButtonUp from '~/components/ButtonUp.vue'
 
 export default {
   components: {
@@ -189,7 +191,8 @@ export default {
     ThankYou,
     BlueHeader,
     GreyDivider,
-    Footer
+    Footer,
+    ButtonUp
   }
 }
 </script>

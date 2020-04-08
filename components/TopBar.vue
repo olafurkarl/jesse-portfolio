@@ -1,7 +1,9 @@
 <template>
-  <div class="topbar">
+  <div id="top" class="topbar">
     <div class="name">
-      <span>Jesse Ting</span> <span>(Jian Yu)</span>
+      <nuxt-link to="/" class="topbar-about nostyle">
+        <span>Jesse Ting</span> <span>(Jian Yu)</span>
+      </nuxt-link>
     </div>
     <div class="navigation">
       <nuxt-link to="/" class="topbar-about nostyle">
@@ -10,10 +12,10 @@
       <nuxt-link to="/about" class="topbar-about nostyle">
         About
       </nuxt-link>
-      <nuxt-link to="/#projects" class="topbar-about nostyle">
+      <nuxt-link :to="{ path: '/',hash:'#projects'}" v-smooth-scroll href="#projects" class="topbar-about nostyle">
         Projects
       </nuxt-link>
-      <nuxt-link to="/" class="topbar-about nostyle">
+      <nuxt-link to="/design-challenge" class="topbar-about nostyle">
         Daily UI
       </nuxt-link>
     </div>

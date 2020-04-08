@@ -11,7 +11,8 @@
         <div class="padding-right" />
         <MainHeader />
       </div>
-      <div id="projects" class="content">
+      <div id="projects" />
+      <div class="content projects">
         <div class="padding-left" />
         <div class="padding-right" />
         <Projects />
@@ -40,6 +41,14 @@ export default {
 <style>
 .grey {
   background-color: #F5F5F5;
+}
+
+#projects {
+  padding: 0.8em;
+}
+
+.projects {
+  background-color: #F7F7F7;
 }
 
 .content {
