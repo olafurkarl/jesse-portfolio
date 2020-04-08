@@ -101,6 +101,7 @@
   justify-self: self-end;
 
   grid-column-gap: 2em;
+  white-space: nowrap;
 }
 
 .navigation a {

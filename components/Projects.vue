@@ -10,18 +10,18 @@
       </nuxt-link>
     </div>
     <div class="box-2">
-      <nuxt-link to="/myfootcare-part-one">
-        <img class="image box-2-image" src="~assets/box-2.png">
+      <nuxt-link to="/design-challenge">
+        <img class="image box-4-image" src="~assets/box-design-challenge.png">
       </nuxt-link>
     </div>
     <div class="box-3">
-      <nuxt-link to="/myfootcare-part-two">
-        <img class="image box-3-image" src="~assets/box-3.png">
+      <nuxt-link to="/myfootcare-part-one">
+        <img class="image box-2-image" src="~assets/box-qut-1.png">
       </nuxt-link>
     </div>
     <div class="box-4">
-      <nuxt-link to="/design-challenge">
-        <img class="image box-4-image" src="~assets/box-design-challenge.png">
+      <nuxt-link to="/myfootcare-part-two">
+        <img class="image box-3-image" src="~assets/box-qut-2.png">
       </nuxt-link>
     </div>
   </div>

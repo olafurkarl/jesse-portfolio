@@ -160,8 +160,8 @@
           <div class="blue-text padded">
             <h3>Improvement</h3>
             <div class="grey-header-small" />
-            <div class="blue-text-content">
-              Up to this stage,  I’d focused on the first and third identified issues - Email lacks personality & Efficiency. This was done by creating three new templates with more personality and the FlightCentre branding, colour and styles. This also solved the problem of efficiency by letting composers reuse pre-determined templates.
+            <div class="blue-text-content-improvement">
+              Up to this stage,  I’d focused on the first and third identified issues - Email lacks personality and efficiency. This was done by creating three new templates with more personality and the FlightCentre branding, colour and styles. This also solved the problem of efficiency by letting composers reuse pre-determined templates.
             </div>
           </div>
 
@@ -185,14 +185,16 @@
               <div class="ca-title">
                 Competitor Analysis of email editors and email marketing platforms
               </div>
-              <img src="~assets/flight-centre/competitor-analysis.png">
+              <img src="~assets/flight-centre/comp-an-1.png">
+              <img src="~assets/flight-centre/com-an-2.png">
+              <img src="~assets/flight-centre/comp-an-3.png">
             </div>
           </div>
 
           <div class="blue-text padded">
             <h3>Solving the Problems</h3>
             <div class="grey-header-small" />
-            <div class="blue-text-content">
+            <div class="blue-text-content-problems">
               By using BEE Free Pro in conjunction with MailChimp, the problem created by platform inflexibility and demand for coding skills was eliminated. The BEE Free Pro platform is a lot more intuitive and flexible, and enables users to design email templates without any complicated coding. Once the template has been designed, MailChimp is utilized for the actual sending of marketing emails.
             </div>
           </div>
@@ -206,7 +208,11 @@
                   Handoff
                 </div>
                 <div class="card-text">
-                  After everything was completed, this project was presented to the leader of Retail Experience Team and handover the final Sketch file to the team UX Designer. As the target users in this project are the Customer Support Managers, I also presented the process and design to them to ask some feedback and to validate my design solutions with the key stakeholders. With the enhnacement of BEE FREE PRO, the Retail Support Team would be able to shorten the amount of work time, at the same time, progressively improve the design and layout when needed.
+                  After everything was completed, this project was presented to the leader of Retail Experience Team and handover
+                  the final Sketch file to the team UX Designer. As the target users in this project are the Customer Support Managers,
+                  I also presented the process and design to them to ask some feedback and to validate my design solutions with the key stakeholders.
+                  With the enhnacement of BEE FREE PRO, the Retail Support Team would <b>be able to shorten the amount of work time</b>, at the same time,
+                  <b>progressively improve the design and layout when needed.</b>
                 </div>
               </div>
               <div class="card-image">
@@ -221,8 +227,8 @@
 
           <ThankYou />
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   </div>
 </template>
@@ -375,7 +381,7 @@ export default {
 }
 
 .card {
-  margin-top: 40px;
+  margin-top: 6em;
   font-family: Karla;
 }
 
@@ -452,8 +458,6 @@ export default {
   margin-top: 2em;
 
   margin-bottom: 2em;
-
-  padding-left: 55px;
 }
 
 .findings img {
@@ -537,7 +541,7 @@ export default {
 }
 
 .blue-text {
-  margin-top: 2em;
+  margin-top: 4em;
   color: #1A3163;
   font-family: Karla;
   text-align: center;
@@ -552,6 +556,13 @@ export default {
 .blue-text-content {
   font-size: 34px;
   margin-top: 1em;
+  line-height: 45px;
+}
+
+.blue-text-content-improvement, .blue-text-content-problems {
+  font-size: 20px;
+  margin-top: 1em;
+  line-height: 35px;
 }
 
 .blue-text-content.bold {
@@ -581,7 +592,7 @@ export default {
   background-color: rgba(221, 221, 221, 0.3);
   text-align: center;
   padding: 1em;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .ideate.card-image img {
@@ -592,7 +603,7 @@ export default {
 
 .ideate.description {
   font-family: Karla;
-  margin-top: 2em;
+  margin-top: 4em;
   font-size: 20px;
 }
 
@@ -609,7 +620,7 @@ export default {
 }
 
 .prototype .card-image {
-  margin-top: 1em;
+  margin-top: 4em;
 }
 
 .prototype img {
@@ -638,8 +649,8 @@ export default {
 }
 
 .approaches img {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   width: 100%;
   object-fit: cover;
 }
@@ -651,7 +662,7 @@ export default {
 }
 
 .competitor-analysis img {
-  margin-top: 2em;
+  margin-top: 5em;
   margin-bottom: 2em;
   width: 100%;
   object-fit: cover;
@@ -665,6 +676,7 @@ export default {
   width: 100%;
   max-width: 320px;
   object-fit: cover;
+  margin-top: 4em;
 }
 
 .handoff.card-image {
@@ -674,7 +686,7 @@ export default {
 .handoff.card-image img {
   width: 100%;
   object-fit: cover;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .container-1 {

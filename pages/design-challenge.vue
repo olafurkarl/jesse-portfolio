@@ -45,7 +45,7 @@ export default {
 .challenges-main {
   background-color: #F7F7F7;
   text-align: center;
-  margin-top: 4em;
+  margin-top: 5em;
 }
 
 .title {
@@ -73,7 +73,7 @@ export default {
 
   color: #000000;
 
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
 }
 </style>

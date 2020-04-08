@@ -203,6 +203,10 @@ export default {
   background-color: #F5F5F5;
 }
 
+.text + img {
+  margin-top: 2em;
+}
+
 .padded {
   margin-left: 20%;
   margin-right: 20%;
@@ -318,7 +322,7 @@ img {
 
 .outro a {
   text-decoration-line: underline;
-  color: #1A3163;
+  color: #F26582;
 }
 
 </style>

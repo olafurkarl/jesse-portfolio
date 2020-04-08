@@ -22,7 +22,7 @@
       <div class="challenge">
         <img src="~assets/design_challenge/007.png">
       </div>
-      <div class="challenge">
+      <div class="challenge last">
         <img src="~assets/design_challenge/008.png">
       </div>
     </div>
@@ -42,6 +42,10 @@
 
 .challenge {
   margin-bottom: 4em;
+}
+
+.last {
+  margin-bottom: 13em;
 }
 
 @media (max-width: 1200px) {

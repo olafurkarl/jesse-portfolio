@@ -141,10 +141,15 @@
               Each sketch and wireframe was reviewed with the participants iteratively before moving on to the next stage. With user feedback, a Hi-Fi prototype was developed through Sketch. As none of my participant had a DFU condition, I decided to validate my proposed design recommendations with a friend of mine who actually has  diabetes type 1.
             </div>
 
-            <img src="~assets/myfootcare-part-two/ratings-and-reviews.png">
+            <img src="~assets/myfootcare-part-two/ratings-and-reviews.png" style="max-width: 369px;">
           </div>
 
-          <img src="~assets/myfootcare-part-two/quote.png">
+          <div class="quote">
+            <br>
+            Steve Krug stated in his book DON'T MAKE ME THINK - "Testing one user is 100% better than testing none"
+            <br>
+            <br>
+          </div>
 
           <div class="padded">
             <img src="~assets/myfootcare-part-two/style-guide.png">
@@ -198,6 +203,10 @@ export default {
 </script>
 
 <style scoped>
+.text + img {
+  margin-bottom: 5em;
+}
+
 .grey {
   background-color: #F5F5F5;
 }
@@ -208,7 +217,34 @@ export default {
 }
 
 .break {
-  padding-bottom: 6em;
+  padding-bottom: 7.5em;
+}
+
+.quote::before {
+  content: '';
+  border-top: 2px solid #dddddd;
+  width: 40%;
+  left: 30%;
+  position: absolute;
+}
+
+.quote::after {
+  content: '';
+  border-bottom: 2px solid #dddddd;
+  width: 40%;
+  left: 30%;
+  position: absolute;
+}
+
+.quote {
+  font-family: Montserrat;
+  color: #1A3163;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .padding-right { grid-area: padding-right; }
@@ -247,10 +283,6 @@ export default {
   margin-left: auto;
 }
 
-.description-text {
-  margin-top: 108px;
-}
-
 .description-text > img {
   width: 100%;
   object-fit: cover;
@@ -275,7 +307,7 @@ img {
   width: 100%;
   object-fit: cover;
 
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .empathy-img {
@@ -315,11 +347,12 @@ img {
   text-align: center;
   color: #1A3163;
   margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .outro a {
   text-decoration-line: underline;
-  color: #1A3163;
+  color: #F26582;
 }
 
 </style>

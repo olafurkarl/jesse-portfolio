@@ -14,7 +14,7 @@
 <style scoped>
 .thanks {
   margin-top: 4em;
-  margin-bottom: 10em;
+  margin-bottom: 13em;
 }
 
 .thanks h1 {
