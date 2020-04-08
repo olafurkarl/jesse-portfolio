@@ -34,6 +34,17 @@ export default {
     MainHeader,
     Projects,
     Footer
+  },
+  head () {
+    return {
+      title: 'Jesse\'s Portfolio',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'og:title', content: 'Jesse Ting\'s Portfolio.' },
+        { hid: 'og:image', content: '/preview.jpg' },
+        { hid: 'og:url', content: 'https://.jesseding.now.sh' }
+      ]
+    }
   }
 }
 </script>
