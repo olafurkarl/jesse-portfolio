@@ -276,23 +276,6 @@ export default {
   object-fit: cover;
 }
 
-.grey-header-small {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 58px;
-
-  display: flex;
-  align-items: center;
-
-  color: #666666;
-
-  border-top: 1px solid #DDDDDD;
-
-  margin-top: 1em;
-}
-
 .grey-header-right {
   margin-left: auto;
 }

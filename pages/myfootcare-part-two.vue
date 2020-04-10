@@ -261,21 +261,6 @@ export default {
   justify-content: center;
 }
 
-.grey-header-small {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 58px;
-
-  display: flex;
-  align-items: center;
-
-  color: #666666;
-
-  border: none;
-}
-
 .grey-header-right {
   margin-left: auto;
 }
@@ -349,6 +334,12 @@ img {
   color: #1A3163;
   margin-top: 3em;
   margin-bottom: 2em;
+}
+
+@media(max-width: 420px) {
+  .outro {
+    font-size: 24px;
+  }
 }
 
 .outro a {

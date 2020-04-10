@@ -24,7 +24,7 @@ html {
   margin: 0;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 421px) {
  .padded {
   margin-left: 20%;
   margin-right: 20%;
@@ -48,6 +48,30 @@ html {
 @media(max-width: 420px) {
   .main-description {
     margin-top: 1em;
+  }
+}
+
+.grey-header-small {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 58px;
+
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+
+  border-top: 1px solid #DDDDDD;
+
+  margin-top: 1em;
+}
+
+@media (max-width: 420px) {
+  .grey-header-small {
+    font-size: 12px;
+    line-height: 32px;
   }
 }
 
