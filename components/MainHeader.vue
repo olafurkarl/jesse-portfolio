@@ -119,10 +119,15 @@ img {
   padding-right: 10px;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 420px) {
+  .grid-container {
+    margin-top: 1em;
+  }
+
   .text {
     font-size: 30px;
-    margin-top: 50px;
+    line-height: 40px;
+    margin-bottom: 1em;
   }
 }
 
