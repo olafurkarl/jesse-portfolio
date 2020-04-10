@@ -17,7 +17,7 @@
   margin-top: 30px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .blue-title {
     font-size: 24px;
     text-align:  center;

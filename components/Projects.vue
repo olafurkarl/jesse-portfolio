@@ -55,7 +55,7 @@ a:visited {
   margin-bottom: 4em;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .grid-container {
     grid-gap: 1em;
   }

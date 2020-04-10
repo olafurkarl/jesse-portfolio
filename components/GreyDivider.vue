@@ -8,7 +8,7 @@
   border: 2px solid #F5F5F5;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .line {
     width: 100%;
   }
