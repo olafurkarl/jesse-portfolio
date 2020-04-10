@@ -177,10 +177,6 @@ a {
   background-color: #F5F5F5;
 }
 
-.text {
-  font-size: 20px;
-}
-
 .cv-item {
   margin-top: 2em;
 }
@@ -226,6 +222,12 @@ a {
   margin-bottom: 3em;
 }
 
+@media(max-width: 420px) {
+  .about-outro {
+    font-size: 18px;
+  }
+}
+
 .about-outro > div {
   padding: 1em;
 }
@@ -233,6 +235,12 @@ a {
 .about-me, .experience {
   width: 100%;
   margin-top: 3em;
+}
+
+@media (max-width: 420px) {
+  .experience {
+    margin-top: 6em;
+  }
 }
 
 .about-intro img {
@@ -249,6 +257,17 @@ a {
   grid-column-gap: 5%;
 }
 
+@media (max-width: 420px) {
+  .side-by-side {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5%;
+    grid-column-gap: 0;
+  }
+}
+
 .side-grey-line {
   border-left: 2px solid #AAAAAA;
   padding-left: 2em;
@@ -257,6 +276,14 @@ a {
 .text {
   margin-top: 1em;
   line-height: 35px;
+  font-size: 20px;
+}
+
+@media(max-width: 420px) {
+  .text {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .about-intro {
@@ -268,6 +295,18 @@ a {
   grid-column-gap: 5%;
 
   margin-top: 4em;
+}
+
+@media (max-width: 420px) {
+  .about-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content(500px) 1fr;
+    align-items: center;
+    grid-row-gap: 5%;
+    margin-top: 4em;
+    text-align: center;
+  }
 }
 
 .greeting-text {
@@ -350,6 +389,28 @@ a {
   font-size: 22px;
   line-height: 35px;
   letter-spacing: 0.06em;
+}
+
+@media(max-width: 420px) {
+  .specialties li {
+    font-size: 14px;
+  }
+
+  .list-stretch {
+    grid-row-gap: 10px;
+  }
+
+  .cv-header, .cv-text, .cv-item li {
+    font-size: 14px;
+  }
+
+  .cv-footer {
+    font-size: 12px;
+  }
+
+  .side-grey-line {
+    padding-left: 1em;
+  }
 }
 
 </style>

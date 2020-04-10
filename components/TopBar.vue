@@ -1,7 +1,7 @@
 <template>
   <div id="top" class="topbar">
     <div class="name">
-      <nuxt-link to="/" class="topbar-about nostyle">
+      <nuxt-link to="/about" class="topbar-about nostyle">
         <span>Jesse Ting</span> <span>(Jian Yu)</span>
       </nuxt-link>
     </div>
@@ -106,6 +106,11 @@
 
 .navigation a {
   grid-column-gap: 2em;
+  text-decoration: none;
+  color: #1A3163;
+}
+
+.topbar a {
   text-decoration: none;
   color: #1A3163;
 }
