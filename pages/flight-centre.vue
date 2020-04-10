@@ -271,15 +271,6 @@ export default {
 
 .padding-left { grid-area: padding-left; }
 
-.padded {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.main-description {
-  margin-top: 108px;
-}
-
 .description-text > img {
   width: 100%;
   object-fit: cover;
@@ -320,6 +311,12 @@ export default {
   color: #1A3163;
 }
 
+@media (max-width: 420px) {
+  .description-text > h1 {
+    font-size: 30px;
+  }
+}
+
 .description-text > h3 {
   font-family: Karla;
   font-style: normal;
@@ -356,7 +353,7 @@ export default {
 }
 
 .design-process {
-  margin-top: 57px;
+  margin-top: 2em;
   text-align: center;
   background-color: rgba(221, 221, 221, 0.3);
 }
@@ -380,9 +377,26 @@ export default {
   padding: 2em;
 }
 
+@media (max-width: 420px) {
+  .design-process > h2 {
+    font-size: 24px;
+    padding: 0.5em;
+  }
+
+  .design-process > img {
+    padding: 0.5em;
+  }
+}
+
 .card {
   margin-top: 6em;
   font-family: Karla;
+}
+
+@media (max-width: 420px) {
+  .card {
+    margin-top: 2em;
+  }
 }
 
 .card-number {
@@ -563,6 +577,16 @@ export default {
   font-size: 20px;
   margin-top: 1em;
   line-height: 35px;
+}
+
+@media (max-width: 420px) {
+  .blue-text-content {
+    font-size: 20px;
+  }
+
+  .blue-text-content-improvement, .blue-text-content-problems {
+    font-size: 16px;
+  }
 }
 
 .blue-text-content.bold {

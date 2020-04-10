@@ -24,4 +24,31 @@ html {
   margin: 0;
 }
 
+@media (min-width: 321px) {
+ .padded {
+  margin-left: 20%;
+  margin-right: 20%;
+ }
+}
+
+.break {
+  padding-bottom: 7.5em;
+}
+
+@media (max-width: 420px) {
+  .break {
+      padding-bottom: 2em;
+  }
+}
+
+.main-description {
+  margin-top: 5em;
+}
+
+@media(max-width: 420px) {
+  .main-description {
+    margin-top: 1em;
+  }
+}
+
 </style>

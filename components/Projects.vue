@@ -54,6 +54,12 @@ a:visited {
 
   margin-bottom: 4em;
 }
+
+@media (max-width: 320px) {
+  .grid-container {
+    grid-gap: 1em;
+  }
+}
 .padding-left { grid-area: padding-left; }
 
 .padding-right { grid-area: padding-right; }

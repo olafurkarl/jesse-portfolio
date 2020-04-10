@@ -24,6 +24,7 @@
 }
 
 .footer-center {
+  width: 100%;
   margin: 0;
   position: absolute;
   top: 50%;

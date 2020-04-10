@@ -62,6 +62,13 @@ export default {
   margin-top: 1em;
 }
 
+@media (max-width: 420px) {
+  .title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
 .text {
   font-family: Montserrat;
   font-style: normal;

@@ -16,6 +16,13 @@
   margin-bottom: 1em;
   margin-top: 30px;
 }
+
+@media (max-width: 320px) {
+  .blue-title {
+    font-size: 24px;
+    text-align:  center;
+  }
+}
 </style>
 
 <script>

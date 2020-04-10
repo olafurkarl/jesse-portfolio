@@ -40,4 +40,18 @@
   text-align: center;
 }
 
+@media (max-width: 420px) {
+  .thanks {
+    margin-bottom: 4em;
+  }
+
+  .thanks h1 {
+    font-size: 40px;
+  }
+
+  .thank-you-message div {
+    font-size: 20px;
+  }
+}
+
 </style>

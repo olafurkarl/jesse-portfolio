@@ -203,17 +203,10 @@ export default {
   background-color: #F5F5F5;
 }
 
-.text + img {
-  margin-top: 2em;
-}
-
-.padded {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.break {
-  padding-bottom: 6em;
+@media(min-width: 421px) {
+  .text + img {
+    margin-top: 2em;
+  }
 }
 
 .padding-right { grid-area: padding-right; }
@@ -252,10 +245,6 @@ export default {
   margin-left: auto;
 }
 
-.description-text {
-  margin-top: 108px;
-}
-
 .description-text > img {
   width: 100%;
   object-fit: cover;
@@ -279,6 +268,10 @@ export default {
 img {
   width: 100%;
   object-fit: cover;
+}
+
+.main-description img {
+  margin-top: 0em;
 }
 
 .companies-img {

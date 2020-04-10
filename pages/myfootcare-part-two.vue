@@ -207,17 +207,14 @@ export default {
   margin-bottom: 5em;
 }
 
+@media (max-width: 420px) {
+  .text + img {
+    margin-bottom: 2em;
+  }
+}
+
 .grey {
   background-color: #F5F5F5;
-}
-
-.padded {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.break {
-  padding-bottom: 7.5em;
 }
 
 .quote::before {
@@ -308,6 +305,10 @@ img {
   object-fit: cover;
 
   margin-top: 5em;
+}
+
+.main-description img {
+  margin-top: 0em;
 }
 
 .empathy-img {
