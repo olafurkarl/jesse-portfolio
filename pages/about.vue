@@ -14,7 +14,7 @@
             <img src="~assets/about/jesse-sunglasses.png">
 
             <div class="greeting-text">
-              I’m <span class="name">Jesse Ting</span>, a UX designer based in Brisbane Australia
+              I’m <span class="name">Jesse Ting</span>, a UX designer based in Sydney Australia
             </div>
           </div>
           <div class="about-me">
@@ -87,6 +87,25 @@
           <div class="experience">
             <div class="side-grey-line">
               <h3>Experience</h3>
+              <div class="cv-item">
+                <div class="cv-header">
+                  UX Designer / Quokka Technology
+                </div>
+                <div class="cv-footer">
+                  Jun 2020 - Present | Sydney, Australia
+                </div>
+                <ul>
+                  <li>
+                    Evaluating the web product through usability testing, competitor analysis and heuristic review.
+                  </li>
+                  <li>
+                    Desiging and testing the medium-fidelity app prototypes.
+                  </li>
+                  <li>
+                    Collaborating with the team remotely on design sprints and design execution.
+                  </li>
+                </ul>
+              </div>
               <div class="cv-item">
                 <div class="cv-header">
                   Junior UX/UI Designer / Conversions King

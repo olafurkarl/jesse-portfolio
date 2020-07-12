@@ -10,7 +10,7 @@
       <div class="description">
         <div>A UX Designer</div>
         <br>
-        <div>based in Brisbane</div>
+        <div>based in Sydney</div>
         <br>
         <div>Australia</div>
       </div>
