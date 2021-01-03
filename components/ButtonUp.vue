@@ -4,6 +4,16 @@
   </a>
 </template>
 
+<script>
+export default {
+  methods: {
+    scrollToTop () {
+      window.scrollTo(0, 0)
+    }
+  }
+}
+</script>
+
 <style scoped>
 .button_circle {
   width: 25px;
@@ -36,13 +46,3 @@ i {
   margin-right: auto;
 }
 </style>
-
-<script>
-export default {
-  methods: {
-    scrollToTop () {
-      window.scrollTo(0, 0)
-    }
-  }
-}
-</script>

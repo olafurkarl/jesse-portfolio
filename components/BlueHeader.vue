@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  props: {
+    title: { type: String, default: 'Title' }
+  }
+}
+</script>
+
 <style scoped>
 .blue-title {
   font-family: Montserrat;
@@ -24,11 +32,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  props: {
-    title: { type: String, default: 'Title' }
-  }
-}
-</script>

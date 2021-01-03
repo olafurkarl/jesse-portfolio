@@ -51,7 +51,7 @@
 @media (max-width: 1200px) {
   .challenge img {
     width: 100%;
-    object-fit: sclae-down;
+    object-fit: scale-down;
   }
 };
 

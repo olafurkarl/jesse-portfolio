@@ -166,7 +166,7 @@
           <div class="about-outro">
             <div class="side-grey-line">
               <div>
-                That’s pretty much about myself. Have a look of       <nuxt-link :to="{ path: '/', hash:'#projects'}" v-smooth-scroll href="/#projects" class="topbar-about nostyle">
+                That’s pretty much about myself. Have a look of <nuxt-link v-smooth-scroll :to="{ path: '/', hash:'#projects'}" href="/#projects" class="topbar-about nostyle">
                   MY WORK
                 </nuxt-link> and let me know what you think!
               </div>
@@ -180,6 +180,17 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Footer from '~/components/Footer.vue'
+import TopBar from '~/components/TopBar.vue'
+export default {
+  components: {
+    TopBar,
+    Footer
+  }
+}
+</script>
 
 <style scoped>
 a {
@@ -433,14 +444,3 @@ a {
 }
 
 </style>
-
-<script>
-import Footer from '~/components/Footer.vue'
-import TopBar from '~/components/TopBar.vue'
-export default {
-  components: {
-    TopBar,
-    Footer
-  }
-}
-</script>

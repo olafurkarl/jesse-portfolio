@@ -12,7 +12,7 @@
       <nuxt-link to="/about" class="topbar-about nostyle">
         About
       </nuxt-link>
-      <nuxt-link :to="{ path: '/',hash:'#projects'}" v-smooth-scroll href="#projects" class="topbar-about nostyle">
+      <nuxt-link v-smooth-scroll :to="{ path: '/',hash:'#projects'}" href="#projects" class="topbar-about nostyle">
         Projects
       </nuxt-link>
       <nuxt-link to="/design-challenge" class="topbar-about nostyle">

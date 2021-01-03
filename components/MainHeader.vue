@@ -147,13 +147,3 @@ img {
   white-space: nowrap;
 }
 </style>
-
-<script>
-// import ButtonDown from '~/components/ButtonDown.vue'
-
-// export default {
-//   components: {
-//     ButtonDown
-//   }
-// }
-</script>
