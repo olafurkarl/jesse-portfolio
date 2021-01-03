@@ -15,9 +15,9 @@
       <nuxt-link v-smooth-scroll :to="{ path: '/',hash:'#projects'}" href="#projects" class="topbar-about nostyle">
         Projects
       </nuxt-link>
-      <nuxt-link to="/design-challenge" class="topbar-about nostyle">
-        Daily UI
-      </nuxt-link>
+      <a href="https://medium.com/@jcding" class="topbar-about nostyle">
+        Blog
+      </a>
     </div>
   </div>
 </template>
