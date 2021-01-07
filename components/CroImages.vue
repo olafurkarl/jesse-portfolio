@@ -1,8 +1,8 @@
 <template>
   <div class="imageContainer">
     <div class="imageGrid">
-      <img :src="require(`~/assets/cro/${image1}`)" :class="{ shadow: hasShadow }">
-      <img :src="require(`~/assets/cro/${image2}`)" :class="{ shadow: hasShadow }">
+      <img class="horImage" :src="require(`~/assets/cro/${image1}`)" :class="{ shadow: hasShadow }">
+      <img class="vertImage" :src="require(`~/assets/cro/${image2}`)" :class="{ shadow: hasShadow }">
     </div>
   </div>
 </template>
@@ -20,7 +20,6 @@ export default {
 <style scoped>
 .imageContainer {
     display: block;
-    max-width: 1050px;
     padding-bottom: 2em;
 }
 
@@ -28,9 +27,22 @@ export default {
   box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2);
 }
 
+.horImage {
+  width: 600px;
+}
+
+.vertImage {
+  width: 200px;
+}
+
+img {
+  max-width: 100%;
+}
+
 .imageGrid {
     display: grid;
     justify-content: space-evenly;
+    justify-items: end;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
 }
@@ -54,6 +66,7 @@ export default {
     -o-object-fit: scale-down;
     object-fit: scale-down;
     width: 100%;
+    max-width: 100%;
   }
 };
 </style>

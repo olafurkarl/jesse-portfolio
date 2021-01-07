@@ -28,7 +28,7 @@
                 There is a missed opportunity on Nespresso website to present relevant products to users more easily and engagingly
                 and motivate them to purchase (Current implementation below).
               </p>
-              <CroImages image1="nespresso1.png" image2="nespresso1-hor.png" />
+              <img src="~/assets/cro/nespresso1.png">
               <p>
                 <b>Proposed Solutions:</b>
                 Present customers with filtering options on homepage / link to Guided Selling
@@ -37,13 +37,13 @@
               <p>
                 Variation 1: Intensity filter
               </p>
-              <CroImages image1="nespresso2.png" image2="nespresso3-hor.png" has-shadow />
-              <CroImages image1="nespresso3.png" image2="nespresso3-hor.png" has-shadow />
+              <img src="~/assets/cro/nespresso2.png">
+              <img src="~/assets/cro/nespresso3.png">
               <p>
                 Variation 2: Cup Sizes
               </p>
-              <CroImages image1="nespresso4.png" image2="nespresso4-hor.png" has-shadow />
-              <CroImages image1="nespresso5.png" image2="nespresso5-hor.png" has-shadow />
+              <img src="~/assets/cro/nespresso4.png">
+              <img src="~/assets/cro/nespresso5.png">
             </div>
             <div class="grey-box">
               <h2>02. Shine Lawyers</h2>
@@ -53,7 +53,8 @@
                 This means when users are searching for a claim,
                 a list of random assortments of content is displayed in the list below (Current implementation below).
               </p>
-              <CroImages image1="shine1.png" image2="shine1-hor.png" />
+              <img src="~/assets/cro/shine1.png">
+
               <p>
                 <b>Proposed Solutions:</b>
                 The objective of this round is to determine the best way to order search results so customers can quickly and easily find what they want (Proposed designs below).
@@ -61,22 +62,25 @@
               <p>
                 Step 1 - Enter search words
               </p>
-              <CroImages image1="shine2.png" image2="shine2-hor.png" has-shadow />
+              <img src="~/assets/cro/shine2.png">
+
               <p>
                 Step 2 - Select filter by xxx
               </p>
               <p>
                 Filtered by "Order"
               </p>
-              <CroImages image1="shine3.png" image2="shine3-hor.png" has-shadow />
+              <img src="~/assets/cro/shine3.png">
+
               <p>
                 Filtered by "Legal"
               </p>
-              <CroImages image1="shine4.png" image2="shine4-hor.png" has-shadow />
+              <img src="~/assets/cro/shine4.png">
+
               <p>
                 Filtered by "Location"
               </p>
-              <CroImages image1="shine5.png" image2="shine5-hor.png" has-shadow />
+              <img src="~/assets/cro/shine5.png">
             </div>
 
             <div class="grey-box">
@@ -125,6 +129,10 @@ export default {
 
 <style scoped>
 
+.shadow {
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
 p {
   font-size: 20px;
   line-height: 29px;
@@ -140,6 +148,8 @@ p {
   width: 100%;
   padding-left: 2%;
   padding-right: 2%;
+  max-width: 100%;
+  margin-bottom: 2em;
 }
 
 .grey-box > h2 {

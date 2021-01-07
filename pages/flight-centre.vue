@@ -287,7 +287,7 @@ export default {
 .description-text > h1 {
   font-family: Montserrat;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 48px;
   line-height: 58px;

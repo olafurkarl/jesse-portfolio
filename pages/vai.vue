@@ -179,6 +179,10 @@ p {
   min-height: 1400px;
 }
 
+.imageCentered img {
+  max-width: 100%;
+}
+
 .imageCentered {
     text-align: center;
     margin-bottom: 3em;
