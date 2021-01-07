@@ -4,6 +4,16 @@
       Projects
     </div>
 
+    <div class="box-5">
+      <nuxt-link to="/vai">
+        <img class="image box-5-image" src="~assets/box-5.png">
+      </nuxt-link>
+    </div>
+    <div class="box-6">
+      <nuxt-link to="/cro">
+        <img class="image box-6-image" src="~assets/box-6.png">
+      </nuxt-link>
+    </div>
     <div class="box-1">
       <nuxt-link to="/flight-centre">
         <img class="image box-1-image" src="~assets/box-1.png">
@@ -41,12 +51,12 @@ a:visited {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: 0.3fr 2.5fr 2.5fr;
   grid-template-areas:
-  "projects-title projects-title"
-  "box-1 box-2"
-  "box-3 box-4";
+  "projects-title projects-title projects-title"
+  "box-5 box-6 box-1"
+  "box-2 box-3 box-4";
   align-content: center;
   justify-content: center;
   justify-items: center;
@@ -138,6 +148,24 @@ a:visited {
   grid-template-rows: auto auto;
   grid-template-areas: "box-4-image" "box-4-text";
   grid-area: box-4;
+  justify-self: center;
+}
+
+.box-5 {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "box-5-image" "box-5-text";
+  grid-area: box-5;
+  justify-self: center;
+}
+
+.box-6 {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "box-6-image" "box-6-text";
+  grid-area: box-6;
   justify-self: center;
 }
 

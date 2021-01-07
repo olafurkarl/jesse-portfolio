@@ -14,14 +14,17 @@
             <img src="~assets/about/jesse-sunglasses.png">
 
             <div class="greeting-text">
-              I’m <span class="name">Jesse Ting</span>, a UX designer based in Sydney Australia
+              I’m <span class="name">Jesse Ting</span>, a Product Designer based in Sydney Australia
             </div>
           </div>
           <div class="about-me">
             <div class="side-grey-line">
               <h3>About Me</h3>
               <div class="text">
-                Born and raised in Taipei Taiwan with a passion in crafting physical and digital products. Recently graduated from QUT with a master of IT in user experience track. While I was completing my study, I interned in Flight Centre HQ working with the Retail Experience Team and worked as a freelance UX consultant. Design Thinking process, for me, is a mindset that helps human to solve problem in an innovative and creative approach which is critical to what I do and believe.
+                Hi there! My real name is 丁建宇 which pronouces as Ding Jian-Yu, but Jesse will do.
+                I was born and raised in Taipei, Taiwan with a passion for human-centred design, and I embrace challenges,
+                problem solving processes, and team collaboration. I love going for a walk when pondering complex problems or a run to reboot my design engine.
+                I hope to bring humanity into technology which empowers us to do greater work.
               </div>
             </div>
           </div>
@@ -89,26 +92,48 @@
               <h3>Experience</h3>
               <div class="cv-item">
                 <div class="cv-header">
-                  UX Designer / Quokka Technology
+                  Product Designer / Vai
                 </div>
                 <div class="cv-footer">
-                  Jun 2020 - Present | Sydney, Australia
+                  Sep 2020 - Present | Sydney, Australia
                 </div>
                 <ul>
                   <li>
-                    Evaluating the web product through usability testing, competitor analysis and heuristic review.
+                    Informing product design decisions by providing contextual user research.
                   </li>
                   <li>
-                    Desiging and testing the medium-fidelity app prototypes.
+                    Collaborating with the development team to build the design system on Figma.
                   </li>
                   <li>
-                    Collaborating with the team remotely on design sprints and design execution.
+                    Delivering Hi-fi prototypes and specified design handovers to the development team.
+                  </li>
+                  <li>
+                    Using techniques such as Card Sorting, A/B Testing, Heuristic Review, Usability Testing to optimise the products’ UX.
                   </li>
                 </ul>
               </div>
               <div class="cv-item">
                 <div class="cv-header">
-                  Junior UX/UI Designer / Conversions King
+                  UX Designer / Quokka Technology
+                </div>
+                <div class="cv-footer">
+                  Jun 2020 - December 2020 | Remote
+                </div>
+                <ul>
+                  <li>
+                    Evaluated the web product by using Heuristic Review.
+                  </li>
+                  <li>
+                    Conducted User Interviews to understand pain points and to validate the hypotheses and assumptions.
+                  </li>
+                  <li>
+                    Collaborated with other designers on my team to solve complex problems.
+                  </li>
+                </ul>
+              </div>
+              <div class="cv-item">
+                <div class="cv-header">
+                  UX/UI Designer / Conversions King
                 </div>
                 <div class="cv-footer">
                   Jan 2020 - Mar 2020 | Brisbane, Australia
@@ -216,6 +241,7 @@ a {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .cv-header {
@@ -402,6 +428,7 @@ a {
 
 .about {
   font-family: Lato;
+  font-weight: 300;
 }
 
 .about h3 {
@@ -419,6 +446,7 @@ a {
   font-size: 22px;
   line-height: 35px;
   letter-spacing: 0.06em;
+  font-weight: 300;
 }
 
 @media(max-width: 420px) {

@@ -8,7 +8,7 @@
         I'm Jesse Ting
       </div>
       <div class="description">
-        <div>A UX Designer</div>
+        <div>A Product Designer</div>
         <br>
         <div>based in Sydney</div>
         <br>

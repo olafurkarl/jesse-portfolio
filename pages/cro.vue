@@ -12,7 +12,7 @@
         <div class="padding-right" />
         <div class="center">
           <div class="padded">
-            <IntroHeader title="CRO + UI Redesign" left="UI Redesign Showcase" right="January - April 2020" image="flight-centre/flight-centre-trips.png" />
+            <IntroHeader title="CRO + UI Redesign" left="UI Redesign Showcase" right="January - April 2020" />
             <Summary>
               CRO (Conversion Rate Optimisation) is the process of enhancing your digital products to boost conversions,
               which means to convert a website visitor into a paying customer.
@@ -37,13 +37,13 @@
               <p>
                 Variation 1: Intensity filter
               </p>
-              <CroImages image1="nespresso2.png" image2="nespresso3-hor.png" />
-              <CroImages image1="nespresso3.png" image2="nespresso3-hor.png" />
+              <CroImages image1="nespresso2.png" image2="nespresso3-hor.png" has-shadow />
+              <CroImages image1="nespresso3.png" image2="nespresso3-hor.png" has-shadow />
               <p>
                 Variation 2: Cup Sizes
               </p>
-              <CroImages image1="nespresso4.png" image2="nespresso4-hor.png" />
-              <CroImages image1="nespresso5.png" image2="nespresso5-hor.png" />
+              <CroImages image1="nespresso4.png" image2="nespresso4-hor.png" has-shadow />
+              <CroImages image1="nespresso5.png" image2="nespresso5-hor.png" has-shadow />
             </div>
             <div class="grey-box">
               <h2>02. Shine Lawyers</h2>
@@ -61,22 +61,22 @@
               <p>
                 Step 1 - Enter search words
               </p>
-              <CroImages image1="shine2.png" image2="shine2-hor.png" />
+              <CroImages image1="shine2.png" image2="shine2-hor.png" has-shadow />
               <p>
                 Step 2 - Select filter by xxx
               </p>
               <p>
                 Filtered by "Order"
               </p>
-              <CroImages image1="shine3.png" image2="shine3-hor.png" />
+              <CroImages image1="shine3.png" image2="shine3-hor.png" has-shadow />
               <p>
                 Filtered by "Legal"
               </p>
-              <CroImages image1="shine4.png" image2="shine4-hor.png" />
+              <CroImages image1="shine4.png" image2="shine4-hor.png" has-shadow />
               <p>
                 Filtered by "Location"
               </p>
-              <CroImages image1="shine5.png" image2="shine5-hor.png" />
+              <CroImages image1="shine5.png" image2="shine5-hor.png" has-shadow />
             </div>
 
             <div class="grey-box">

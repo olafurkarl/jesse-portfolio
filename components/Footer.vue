@@ -6,10 +6,10 @@
       </div>
       <div>
         <a href="https://www.linkedin.com/in/jesse-ting-b2a383128/">
-          <img src="~assets/linkedin.png"></a>
-        <a href="mailto:jessedingx2@gmail.com"><img src="~assets/email.png"></a>
+          <img src="~assets/linkedin.svg"></a>
+        <a href="mailto:jessedingx2@gmail.com"><img src="~assets/email.svg"></a>
         <a href="https://www.facebook.com/jd.harrison.568">
-          <img src="~assets/facebook.png"></a>
+          <img src="~assets/facebook.svg"></a>
       </div>
     </div>
   </div>
