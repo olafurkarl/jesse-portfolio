@@ -118,6 +118,10 @@
                 <img src="~/assets/vai/vai13.png">
               </div>
 
+              <div class="imageCentered">
+                <img src="~/assets/vai/vai15.png">
+              </div>
+
               <YellowCard title="Handoff" number="05.">
                 This project consists of redesigning an existing product, Arena, and reshaping a template, Jitsi. To complete a smooth handoff,
                 I not only delivered Hi-fi prototypes on Figma but I also created style guides for both products. For Jitsi, which is now Vai Vu,

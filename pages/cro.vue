@@ -113,7 +113,6 @@ import Footer from '~/components/Footer.vue'
 import ButtonUp from '~/components/ButtonUp.vue'
 import IntroHeader from '~/components/IntroHeader.vue'
 import Summary from '~/components/Summary.vue'
-import CroImages from '~/components/CroImages.vue'
 
 export default {
   components: {
@@ -121,8 +120,7 @@ export default {
     Footer,
     ButtonUp,
     IntroHeader,
-    Summary,
-    CroImages
+    Summary
   }
 }
 </script>
