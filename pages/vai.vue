@@ -119,7 +119,7 @@
               </div>
 
               <div class="imageCentered">
-                <img src="~/assets/vai/vai15.png">
+                <img src="~/assets/vai/vai14.png">
               </div>
 
               <YellowCard title="Handoff" number="05.">
@@ -131,7 +131,7 @@
               </YellowCard>
 
               <div class="imageCentered">
-                <img src="~/assets/vai/vai14.png">
+                <img src="~/assets/vai/vai15.png">
               </div>
             </div>
             <ThankYou />
