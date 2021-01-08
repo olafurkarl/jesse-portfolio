@@ -78,9 +78,14 @@
               <img src="~/assets/cro/shine4.png">
 
               <p>
+                Filtered by "Time"
+              </p>
+              <img src="~/assets/cro/shineTime.png">
+
+              <p>
                 Filtered by "Location"
               </p>
-              <img src="~/assets/cro/shine5.png">
+              <img src="~/assets/cro/shineLocation.png">
             </div>
 
             <div class="grey-box">
