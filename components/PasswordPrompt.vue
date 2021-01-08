@@ -3,7 +3,15 @@
     <form @submit.prevent="handleSubmit(password)">
       <img src="~/assets/lock.svg">
       <br>
-      <input v-model="password" type="password" name="password" placeholder="Enter the magic words" class="form-control">
+      <input
+        ref="password"
+        v-model="password"
+        autofocus
+        type="password"
+        name="password"
+        placeholder="Enter the magic words"
+        class="form-control"
+      >
 
       <button class="btn btn-primary">
         Open Sesame
@@ -19,6 +27,9 @@ export default {
       return this.$store.state.todos.list
     }
   },
+  mounted () {
+    this.$refs.password.focus()
+  },
   methods: {
     handleSubmit (password) {
       if (password === 'hireme') {
@@ -32,6 +43,7 @@ export default {
 <style scoped>
 form {
     text-align: center;
+    margin-top: 5em;
 }
 
 img {

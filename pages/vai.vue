@@ -179,24 +179,29 @@ p {
   line-height: 30px;
 }
 
-.content.main {
-  min-height: 1400px;
+.content {
+  display: grid;
+  grid-template-columns: 0.1fr minmax(0, 1fr) 0.1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "padding-left content-1 padding-right";
+  justify-content: center;
+}
+
+.main {
+  min-height: 100vh;
 }
 
 .imageCentered img {
   max-width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .imageCentered {
     text-align: center;
     margin-bottom: 3em;
     margin-top: 3em;
+
 }
 
-@media (max-width: 1200px) {
-  .imageCentered img {
-    width: 100%;
-    object-fit: scale-down;
-  }
-};
 </style>
