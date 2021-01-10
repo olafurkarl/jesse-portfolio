@@ -13,7 +13,7 @@
 
 <style scoped>
 .thanks {
-  margin-top: 4em;
+  margin-top: 13em;
   margin-bottom: 13em;
 }
 
