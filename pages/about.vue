@@ -21,7 +21,7 @@
             <div class="side-grey-line">
               <h3>About Me</h3>
               <div class="text">
-                Hi there! My real name is 丁建宇 which pronouces as Ding Jian-Yu, but Jesse will do.
+                Hi there! My real name is 丁建宇 which is pronounced as Ding Jian-Yu, but Jesse will do.
                 I was born and raised in Taipei, Taiwan with a passion for human-centred design, and I embrace challenges,
                 problem solving processes, and team collaboration. I love going for a walk when pondering complex problems or a run to reboot my design engine.
                 I hope to bring humanity into technology which empowers us to do greater work.
