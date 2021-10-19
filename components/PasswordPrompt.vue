@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     handleSubmit (password) {
-      if (password === 'hireme') {
+      if (password === 'dovetail') {
         this.$store.commit('login/login')
       }
     }

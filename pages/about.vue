@@ -100,19 +100,19 @@
                 <ul>
                   <li>
                     Working with Product Managers to define product roadmaps that
-                    both deliver business results and create value for users)
+                    both deliver business results and create value for users.
                   </li>
                   <li>
                     Conducting both qualitative and quantitative research to validate
-                    assumptions and discover insights during discovery stage
+                    assumptions and discover insights during discovery stage.
                   </li>
                   <li>
                     Designing new product features and incrementally improving the
-                    user experience
+                    user experience.
                   </li>
                   <li>
                     Iteractively building and refining the design system with the
-                    product design lead)
+                    product design lead.
                   </li>
                   <li>
                     Introducing new processes and techniques to optimise the
@@ -138,7 +138,7 @@
                     Delivering Hi-fi prototypes and specified design handovers to the development team.
                   </li>
                   <li>
-                    Using techniques such as Card Sorting, A/B Testing, Heuristic Review, Usability Testing to optimise the products’ UX.
+                    Using techniques such as Card Sorting, A/B Testing, Heuristic Review, Usability Testing to optimise the products' UX.
                   </li>
                 </ul>
               </div>
