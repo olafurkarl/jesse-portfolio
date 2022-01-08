@@ -4,32 +4,32 @@
       Projects
     </div>
 
-    <div class="box-5">
+    <!-- <div class="box-5">
       <nuxt-link to="/vai">
         <img class="image box-5-image" src="~assets/box-5.png">
       </nuxt-link>
-    </div>
-    <div class="box-6">
+    </div> -->
+    <div class="box-1">
       <nuxt-link to="/cro">
         <img class="image box-6-image" src="~assets/box-6.png">
       </nuxt-link>
     </div>
-    <div class="box-1">
+    <div class="box-2">
       <nuxt-link to="/flight-centre">
         <img class="image box-1-image" src="~assets/box-1.png">
       </nuxt-link>
     </div>
-    <div class="box-2">
+    <div class="box-3">
       <nuxt-link to="/design-challenge">
         <img class="image box-4-image" src="~assets/box-design-challenge.png">
       </nuxt-link>
     </div>
-    <div class="box-3">
+    <div class="box-4">
       <nuxt-link to="/myfootcare-part-one">
         <img class="image box-2-image" src="~assets/box-qut-1.png">
       </nuxt-link>
     </div>
-    <div class="box-4">
+    <div class="box-5">
       <nuxt-link to="/myfootcare-part-two">
         <img class="image box-3-image" src="~assets/box-qut-2.png">
       </nuxt-link>
@@ -55,8 +55,8 @@ a:visited {
   grid-template-rows: 0.3fr 2.5fr 2.5fr;
   grid-template-areas:
   "projects-title projects-title projects-title"
-  "box-5 box-6 box-1"
-  "box-2 box-3 box-4";
+  "box-1 box-2 box-3"
+  "box-4 box-5 box-6";
   align-content: center;
   justify-content: center;
   justify-items: center;

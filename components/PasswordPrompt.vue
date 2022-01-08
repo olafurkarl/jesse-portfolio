@@ -6,7 +6,7 @@
       <input
         ref="password"
         v-model="password"
-        autofocus
+        autofocusq
         type="password"
         name="password"
         placeholder="Enter the magic words"
